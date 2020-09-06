@@ -1,6 +1,6 @@
 
 ## Demo url
-https://moriko232.github.io/vue-week7
+https://moriko232.github.io/vue-week8-end
 
 
 ## Project setup
