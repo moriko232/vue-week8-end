@@ -1,0 +1,195 @@
+@charset "UTF-8";
+
+body {
+  font-family: "Rubik", "PingFang TC", "Heiti", "黑體", "微軟正黑體", "Heiti TC",
+    "黑體-繁", "SF Pro TC", "SF Pro Text";
+}
+
+.text-h1 {
+  font-size: 2.5rem;
+
+  @media (max-width:992px) {
+    font-size: 1.8rem;
+  }
+}
+
+.text-h2 {
+  font-size: 2rem;
+
+  @media (max-width:992px) {
+    font-size: 1.5rem;
+  }
+}
+
+.text-h3 {
+  font-size: 1.75rem;
+
+  @media (max-width:992px) {
+    font-size: 1.2rem;
+  }
+}
+
+.text-h4 {
+  font-size: 1.5rem;
+
+  @media (max-width:992px) {
+    font-size: 1em;
+  }
+}
+
+
+.focus1 {
+  color: $color1;
+}
+
+a {
+  color: $color1;
+  transition: .5s;
+
+  &:hover {
+    transition: 0.5s;
+    opacity: 0.8;
+    text-decoration: none;
+  }
+}
+
+*:focus {
+  outline: none !important
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  line-height: 170%;
+}
+
+
+.btn:disabled {
+  cursor: no-drop;
+  background-color: #999;
+}
+
+.main-content {
+  margin-top: 30px;
+  min-height: 50vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.origin-price {
+  font-size: 15px;
+  text-decoration: line-through;
+}
+
+.price {
+  color: red;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.add-cart {
+  width: 100%;
+  border: 1px solid $color1;
+  color: $color1;
+  background-color: transparent;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 50px;
+  transition: 0.5s;
+}
+
+.add-cart:hover {
+  transition: 0.5s;
+  background: $color1;
+  color: #fff;
+}
+
+
+.product-item {
+  margin-bottom: 50px;
+}
+
+.product-item img {
+  max-width: 100%;
+}
+
+.product-text {
+  padding: 10px 5px;
+}
+
+form {
+  max-width: 100%;
+  width: 350px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+form h3 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.table {
+  border-bottom: 1px solid #dee2e6;
+
+  td {
+    vertical-align: middle;
+  }
+}
+
+.table1 {
+  width: 100%;
+  tr {
+    th {
+
+      padding:10px 5px;
+      font-weight: bold;
+      font-size: 16px;
+      border-bottom: 1px solid #d8d8d8;
+    }
+
+    td {
+      padding:8px 5px;
+      border-bottom: 1px solid #d8d8d8;
+
+    }
+
+    &:last-child{
+      td {
+        border-top: 1px solid #333;
+        border-bottom: 1px solid #333;
+      }
+    }
+  }
+}
+
+.is-invalid {
+  color: red;
+}
+
+.qty {
+  max-width: 200px;
+}
+
+.color1 {
+  color: $color1
+}
+
+.color2 {
+  color: $color2
+}

@@ -1,0 +1,163 @@
+header {
+  height: 88px;
+  padding: 10px 0;
+  background-color: #fff;
+
+  @media (max-width:576px) {
+    height: 100px;
+
+    .container {
+      padding: 0;
+    }
+  }
+}
+
+.logo {
+  color: $color1;
+  margin-bottom: 0;
+  font-size: 12px;
+
+  @media (max-width:576px) {
+    text-align: center;
+  }
+
+  &:hover {
+    transition: 0.4s;
+    opacity: 0.8;
+    text-decoration: none;
+  }
+
+  h1 {
+    margin-bottom: 0;
+
+    @media (max-width:992px) {
+      font-size: 2rem;
+      letter-spacing: 1px;
+    }
+  }
+
+  a {
+    color: $color1;
+  }
+
+  .logo-en {
+    letter-spacing: 4px;
+    display: block;
+    margin-top: 1px;
+
+    @media (max-width:992px) {
+      letter-spacing: 2px;
+    }
+  }
+
+}
+
+.is-sticky {
+  position: sticky;
+  top: 0; // Threshold is required
+  z-index: 100;
+}
+
+.main-menu {
+  margin-top: 5px;
+
+  @media (max-width:576px) {
+    background: $color2;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  li {
+    list-style: none;
+    display: inline-block;
+
+    >a {
+      display: block;
+      padding: 5px 15px;
+      margin-left: 10px;
+      color: $color1;
+      border-radius: 5px;
+
+      &:hover,
+      &.router-link-active {
+        transition: 0.5s;
+        text-decoration: none;
+        background: $color1;
+        color: #fff;
+      }
+    }
+  }
+}
+
+.top-menu {
+  margin-right: 7px;
+  padding: 0 0 5px 0;
+  position: relative;
+  top: -5px;
+  right: 8px;
+
+  li {
+    list-style: none;
+
+    a {
+      font-size: 13px;
+      color: #333;
+    }
+  }
+}
+
+.sub-menu-wrap {
+  background: $color2;
+
+  @media (max-width:576px) {
+    background: #f2f2f2;
+  }
+}
+
+.sub-menu {
+  padding: 14px 0;
+  margin-bottom: 40px;
+  color: #fff;
+  line-height: 1.2;
+
+  @media (max-width:576px) {
+    color: #000;
+    font-size: 13px;
+  }
+
+  li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+    border-bottom: 1px solid transparent;
+    padding-bottom: 2px;
+
+    &:after {
+      display: inline-block;
+      content: '>';
+      padding-left: 10px;
+    }
+
+    &:last-child::after {
+      display: none;
+    }
+
+    span {
+      color: $color1;
+    }
+
+    a {
+      color: #fff;
+
+      @media (max-width:576px) {
+        color: #000;
+        font-size: 13px;
+      }
+
+      &:hover {
+        text-decoration: none;
+        border-bottom: 1px solid #fff;
+      }
+    }
+  }
+}
