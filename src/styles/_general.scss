@@ -77,7 +77,11 @@ p {
 }
 
 
-
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 
 
@@ -132,6 +136,14 @@ p {
   padding: 10px 5px;
 }
 
+.product-tag {
+  border-radius: 50px;
+  background-color: $color2;
+  padding: 5px 20px;
+  color: #fff;
+  display: inline-block;
+}
+
 form {
   max-width: 100%;
   width: 350px;
@@ -154,22 +166,23 @@ form h3 {
 
 .table1 {
   width: 100%;
+
   tr {
     th {
 
-      padding:10px 5px;
+      padding: 10px 5px;
       font-weight: bold;
       font-size: 16px;
       border-bottom: 1px solid #d8d8d8;
     }
 
     td {
-      padding:8px 5px;
+      padding: 8px 5px;
       border-bottom: 1px solid #d8d8d8;
 
     }
 
-    &:last-child{
+    &:last-child {
       td {
         border-top: 1px solid #333;
         border-bottom: 1px solid #333;
@@ -186,8 +199,12 @@ form h3 {
   max-width: 200px;
 }
 
+.color-white {
+  color: #fff
+}
+
 .color1 {
-  color: $color1
+  color: $color1;
 }
 
 .color2 {

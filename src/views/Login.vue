@@ -81,7 +81,7 @@ export default {
       this.$http
         .post(loginUrl, data)
         .then(response => {
-          this.successMessage = "登入成功，請稍後...";
+          this.successMessage = "登入成功，請稍候...";
 
           const token = response.data.token;
           const expired = response.data.expired;
@@ -107,30 +107,3 @@ export default {
   }
 };
 </script>
-<style>
-.full-bg {
-  height: 100vh;
-  background-color: #a0d6aa;
-  display: flex;
-  align-items: center;
-  position: relative;
-}
-.white-bg .top,
-.full-bg .top {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  min-height: 60px;
-  padding: 15px 30px;
-  color: #ffffff;
-  background: #90bd98;
-  font-size: 18px;
-}
-.white-bg {
-  background-color: #fff;
-  min-height: 100vh;
-  align-items: center;
-  position: relative;
-  padding-top: 100px;
-}
-</style>

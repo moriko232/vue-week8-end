@@ -32,8 +32,77 @@
             </div>
           </slick>
         </div>
+
         <div class="container">
-          <div class="mt-3 title-wrap">
+          <div class="pt-3"></div>
+          <div class="mt-5 mb-5 title-wrap">
+            <h2>
+              本季熱門商品
+            </h2>
+          </div>
+          <div class="row recommends text-center">
+            <div class="col-md-4 recommends__item">
+              <router-link
+                class="recommends__img"
+                to="/product/QipkdBLhI8SNoBu35ugXN2uiaGHccpG0MdERriyimjre58ezd4xFqTVzbZmSCP6E"
+              >
+                <span class="text">
+                  <span class="text-h3 d-block">清爽香氛皂</span>
+                  <span class="desc">夏日主打，恰到好處的洗淨力，還你一身清爽自在。</span>
+                </span>
+                <img
+                  src="https://images.unsplash.com/photo-1595121574471-5e57fec127df?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+                  alt=""
+              /></router-link>
+            </div>
+            <div class="col-md-4 recommends__item">
+              <router-link
+                class="recommends__img"
+                to="/product/NtQ67d80ZJEc2Cplxj4PvC2Md67d0Wa6zCvPdoSfH8mUsgpelixB4NZllQLrD4e9"
+              >
+                <span class="text">
+                  <span class="text-h3 d-block">茉莉潤膚皂</span>
+                  <span class="desc"
+                    >特別推薦肌膚敏感的你，添加潤澤配方，預防過度清潔導致的乾癢問題。
+                  </span>
+                </span>
+                <img
+                  src="https://images.unsplash.com/photo-1454873019514-eae2f086587a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1052&q=80"
+                  alt=""
+              /></router-link>
+            </div>
+            <div class="col-md-4 recommends__item">
+              <router-link
+                class="recommends__img"
+                to="/product/khw5fCoRMlv45dobq8CP670R6MuWMlSX1DBAdFZw5mLWuk7rEqhDFqOVSEXBnFed"
+              >
+                <span class="text">
+                  <span class="text-h3 d-block">寶貝嬰兒皂</span>
+                  <span class="desc"
+                    >適合六個月以上寶寶專用，呵護嬰兒細嫩肌膚，無添加人工香料色素好放心。</span
+                  >
+                </span>
+                <img
+                  src="https://images.unsplash.com/photo-1542038374755-a93543c5178f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+                  alt=""
+              /></router-link>
+            </div>
+          </div>
+          <div class="text-center">
+            <router-link class="line-btn" to="/products">更多手工皂產品</router-link>
+          </div>
+        </div>
+
+        <div class="color1-bg pt-5 pb-5 mt-5 mb-5">
+          <div class="container text-center">
+            <p class="text-h2">9月限時活動-下單送熱賣款試用皂</p>
+            <p>
+              訂單不限金額，只要下單就送你試用組合<br />內含秋季主打熱門商品：清爽香氛皂、茉莉潤膚皂、寶貝嬰兒皂30g各一<br />數量有限，贈完為止！心動不如趕快下單哦~
+            </p>
+          </div>
+        </div>
+        <div class="container">
+          <div class="title-wrap">
             <h2 class="text-center"></h2>
           </div>
           <div class="mt-5 mb-5 title-wrap">
@@ -82,54 +151,6 @@
               </h3>
               手工皂的原料多數為天然素材，使用後可自然分解，與合成洗劑比較起來，較不易造成環境負擔。
             </div>
-          </div>
-          <div class="pt-3"></div>
-          <div class="mt-5 mb-5 title-wrap">
-            <h2>
-              本季熱門商品
-            </h2>
-          </div>
-          <div class="row recommends text-center">
-            <div class="col-md-4 recommends__item">
-              <router-link class="recommends__img" to="/product/QipkdBLhI8SNoBu35ugXN2uiaGHccpG0MdERriyimjre58ezd4xFqTVzbZmSCP6E">
-                <span class="text">
-                  <span class="text-h3 d-block">清爽香氛皂</span>
-                  <span class="desc">夏日主打，恰到好處的洗淨力，還你一身清爽自在。</span>
-                </span>
-                <img
-                  src="https://images.unsplash.com/photo-1595121574471-5e57fec127df?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
-                  alt=""
-              /></router-link>
-            </div>
-            <div class="col-md-4 recommends__item">
-              <router-link class="recommends__img" to="/product/NtQ67d80ZJEc2Cplxj4PvC2Md67d0Wa6zCvPdoSfH8mUsgpelixB4NZllQLrD4e9">
-                <span class="text">
-                  <span class="text-h3 d-block">茉莉潤膚皂</span>
-                  <span class="desc"
-                    >特別推薦肌膚敏感的你，添加潤澤配方，預防過度清潔導致的乾癢問題。
-                  </span>
-                </span>
-                <img
-                  src="https://images.unsplash.com/photo-1454873019514-eae2f086587a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1052&q=80"
-                  alt=""
-              /></router-link>
-            </div>
-            <div class="col-md-4 recommends__item">
-              <router-link class="recommends__img" to="/product/khw5fCoRMlv45dobq8CP670R6MuWMlSX1DBAdFZw5mLWuk7rEqhDFqOVSEXBnFed">
-                <span class="text">
-                  <span class="text-h3 d-block">寶貝嬰兒皂</span>
-                  <span class="desc"
-                    >適合六個月以上寶寶專用，呵護嬰兒細嫩肌膚，無添加人工香料色素好放心。</span
-                  >
-                </span>
-                <img
-                  src="https://images.unsplash.com/photo-1542038374755-a93543c5178f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
-                  alt=""
-              /></router-link>
-            </div>
-          </div>
-          <div class="text-center">
-            <router-link class="line-btn" to="/products">更多手工皂產品</router-link>
           </div>
         </div>
       </div>

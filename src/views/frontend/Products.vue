@@ -2,7 +2,7 @@
   <div class="products">
     <nav class="sub-menu-wrap">
       <div class="container">
-        <ul class="sub-menu">          
+        <ul class="sub-menu">
           <li>
             <span>皂皂商品</span>
           </li>
@@ -16,13 +16,16 @@
         <div class="product-list row">
           <template v-for="(item, index) in products">
             <div class="product-item col-lg-4 col-md-6" :key="`item${index}`">
-              <router-link :to="`/product/${item.id}`"><img :src="item.imageUrl[0]"/></router-link>
-
+              <div class="product-img-wrap">
+                <router-link :to="`/product/${item.id}`">
+                  <img :src="item.imageUrl[0]" />
+                </router-link>
+                <p>{{ item.category }}</p>
+              </div>
               <div class="product-text">
                 <h5 class="title">
                   <router-link :to="`/product/${item.id}`">{{ item.title }}</router-link>
                 </h5>
-                <p class="text">{{ item.content }}</p>
                 <div class="text-right">
                   <p class="price">$ {{ item.price }}</p>
                   <p class="origin-price">原價 $ {{ item.origin_price }}</p>
